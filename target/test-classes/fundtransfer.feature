@@ -26,5 +26,13 @@ Feature: Shop Pragmatic BackEnd
   Scenario: Check the menus in the "Design" menu
     Given User is successfully logged in to the admin page
     When User clicks on the "Design" menu
-    When Clicks on all options in the "Design" menu
-    Then All sub menus in the "Design" menu are successfully loaded
+    When User clicks on the "Layouts" menu
+    Then Sub menu "Layouts" is successfully loaded
+    When User clicks on the "ThemeEditor" menu
+    Then Sub menu "ThemeEditor" is successfully loaded
+    When User clicks on the "LanguageEditor" menu
+    Then Sub menu "LanguageEditor" is successfully loaded
+    When User clicks on the "Banners" menu
+    Then Sub menu "Banners" is successfully loaded
+    When User clicks on the "DesignSeoUrl" menu
+    Then Sub menu "DesignSeoUrl" is successfully loaded
