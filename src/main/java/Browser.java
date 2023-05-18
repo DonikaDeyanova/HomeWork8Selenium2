@@ -9,7 +9,7 @@ public class Browser {
     public static void setupDriver() {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
     }
     public static void quitDriver() {
         driver.quit();

@@ -114,5 +114,18 @@ public class DashboardPage {
     public static void verifyPresenceOfSeoUrlSubMenu() {
         Assert.assertEquals(Browser.getDriver().getTitle(), "SEO URL");
     }
+//    public static void designMenuSubMenusAreClickable(){
+//        DashboardPage.clickDesignMenu();
+//        DashboardPage.clickDesignLayoutsSubMenu();
+//        DashboardPage.verifyPresenceOfLayoutsSubMenu();
+//        DashboardPage.clickDesignThemeEditorSubMenu();
+//        DashboardPage.verifyPresenceOfThemeEditorSubMenu();
+//        DashboardPage.clickDesignLanguageEditorSubMenu();
+//        DashboardPage.verifyPresenceOfLanguageEditorSubMenu();
+//        DashboardPage.clickDesignBannersSubMenu();
+//        DashboardPage.verifyPresenceOfBannersSubMenu();
+//        DashboardPage.clickDesignSeoUrlSubMenu();
+//        DashboardPage.verifyPresenceOfSeoUrlSubMenu();
+//    }
 }
 

@@ -177,88 +177,24 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User clicks on the \"Layouts\" menu",
+  "name": "Clicks on all options in the \"Design\" menu",
   "keyword": "When "
 });
 formatter.match({
-  "location": "DashboardPageTest.userClicksOnTheLayoutsSubMenu()"
+  "location": "DashboardPageTest.clicksOnAllOptionsInTheDesignMenu()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Sub menu \"Layouts\" is successfully loaded",
+  "name": "All sub menus in the \"Design\" menu are successfully loaded",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "DashboardPageTest.subMenuLayoutsIsSuccessfullyLoaded()"
+  "location": "DashboardPageTest.allSubMenusInTheDesignMenuAreSuccessfullyLoaded()"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: expected [Layouts] but found []\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:453)\r\n\tat org.testng.Assert.assertEquals(Assert.java:463)\r\n\tat DashboardPage.verifyPresenceOfLayoutsSubMenu(DashboardPage.java:103)\r\n\tat DashboardPageTest.subMenuLayoutsIsSuccessfullyLoaded(DashboardPageTest.java:68)\r\n\tat ✽.Sub menu \"Layouts\" is successfully loaded(src/test/resources/fundtransfer.feature:30)\r\n",
+  "error_message": "java.lang.AssertionError: expected [Layouts] but found []\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:453)\r\n\tat org.testng.Assert.assertEquals(Assert.java:463)\r\n\tat DashboardPage.verifyPresenceOfLayoutsSubMenu(DashboardPage.java:103)\r\n\tat DashboardPageTest.allSubMenusInTheDesignMenuAreSuccessfullyLoaded(DashboardPageTest.java:55)\r\n\tat ✽.All sub menus in the \"Design\" menu are successfully loaded(src/test/resources/fundtransfer.feature:30)\r\n",
   "status": "failed"
-});
-formatter.step({
-  "name": "User clicks on the \"ThemeEditor\" menu",
-  "keyword": "When "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "Sub menu \"ThemeEditor\" is successfully loaded",
-  "keyword": "Then "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "User clicks on the \"LanguageEditor\" menu",
-  "keyword": "When "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "Sub menu \"LanguageEditor\" is successfully loaded",
-  "keyword": "Then "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "User clicks on the \"Banners\" menu",
-  "keyword": "When "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "Sub menu \"Banners\" is successfully loaded",
-  "keyword": "Then "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "User clicks on the \"DesignSeoUrl\" menu",
-  "keyword": "When "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "Sub menu \"DesignSeoUrl\" is successfully loaded",
-  "keyword": "Then "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
 });
 });
